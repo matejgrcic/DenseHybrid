@@ -29,28 +29,52 @@ Fine-tuned LDN-121 semseg model on StreetHazards: [weights](https://drive.google
 ### Dense anomaly detection
 
 Fishyscapes LostAndFound val results:
-> python evaluate_ood.py --dataroot LF_DATAROOT --dataset lf --folder OUTPUT_DIR --params WEIGHTS_FILE
+```bash
+python evaluate_ood.py --dataroot LF_DATAROOT --dataset lf --folder OUTPUT_DIR --params WEIGHTS_FILE
+```
 
 Fishyscapes Static val results:
-> python evaluate_ood.py --dataroot STATIC_DATAROOT --dataset static --folder OUTPUT_DIR --params WEIGHTS_FILE
+```bash
+python evaluate_ood.py --dataroot STATIC_DATAROOT --dataset static --folder OUTPUT_DIR --params WEIGHTS_FILE
+```
 
 StreetHazards results:
-> python evaluate_ood.py --dataroot SH_DATAROOT --dataset street-hazards --folder OUTPUT_DIR --params WEIGHTS_FILE
+```bash
+python evaluate_ood.py --dataroot SH_DATAROOT --dataset street-hazards --folder OUTPUT_DIR --params WEIGHTS_FILE
+```
 
 ### Dense open-set recognition
 
 StreetHazards:
-> python evaluate_osr.py --dataroot SH_DATAROOT --model WEIGHTS_FILE
+```bash
+python evaluate_osr.py --dataroot SH_DATAROOT --model WEIGHTS_FILE
+```
 
 ## Training
 
 Fine-tune DeepLabV3+ on Cityscapes with negatives:
-> python dlv3_cityscapes.py --dataroot CITY_DATAROOT --neg_dataroot ADE_DATAROOT --exp_name EXP_NAME
+```bash
+python dlv3_cityscapes.py --dataroot CITY_DATAROOT --neg_dataroot ADE_DATAROOT --exp_name EXP_NAME
+```
 
 Train LDN-121 on StreetHazards:
-> python ldn_semseg.py --dataroot SH_DATAROOT --exp_name EXP_NAME
+```bash
+python ldn_semseg.py --dataroot SH_DATAROOT --exp_name EXP_NAME
+```
 
 Fine-tune LDN-121 on StreetHazards with negatives:
-> python ldn_streethazards.py --dataroot SH_DATAROOT --neg_dataroot ADE_DATAROOT --exp_name EXP_NAME --model MODEL_INIT
 
-
+```bash
+python ldn_streethazards.py --dataroot SH_DATAROOT --neg_dataroot ADE_DATAROOT --exp_name EXP_NAME --model MODEL_INIT
+```
+### Cite
+```
+@inproceedings{grcic22eccv,
+  author    = {Matej Grci\'c and
+               Petra Bevandi\'c and
+               Sini\v{s}a \v{S}egvi\'c},
+  title     = {DenseHybrid: Hybrid Anomaly Detection for Dense Open-set Recognition},
+  booktitle = {Computer Vision - {ECCV} 2022 - 17th European Conference},
+  year      = {2022}
+}
+```
