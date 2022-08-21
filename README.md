@@ -3,8 +3,6 @@ Official implementation of ECCV2022 paper **DenseHybrid: Hybrid Anomaly Detectio
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=matejgrcic.DenseHybrid)
 
-**Info:** Upload in progress..
-
 ### Abstract
 Anomaly detection can be conceived either through generative modelling of regular training data or by discriminating with respect to negative training data. These two approaches exhibit different failure modes. Consequently, hybrid algorithms present an attractive research goal. Unfortunately, dense anomaly detection requires translational equivariance and very large input resolutions. These requirements disqualify all previous hybrid approaches to the best of our knowledge. We therefore design a novel hybrid algorithm based on reinterpreting discriminative logits as a logarithm of the unnormalized joint distribution p*(x,y). Our model builds on a shared convolutional representation from which we recover three dense predictions: i) the closed-set class posterior P(y|x), ii) the dataset posterior P(din|x), iii) unnormalized data likelihood p*(x). The latter two predictions are trained both on the standard training data and on a generic negative dataset. We blend these two predictions into a hybrid anomaly score which allows dense open-set recognition on large natural images. We carefully design a custom loss for the data likelihood in order to avoid backpropagation through the untractable normalizing constant Z(θ). Experiments evaluate our contributions on standard dense anomaly detection benchmarks as well as in terms of open-mIoU - a novel metric for dense open-set performance. Our submissions achieve state-of-the-art performance despite neglectable computational overhead over the standard semantic segmentation baseline.
 
