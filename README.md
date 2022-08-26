@@ -13,6 +13,8 @@ StreetHazards can be downloaded from [here](https://github.com/hendrycks/anomaly
 
 Fishyscapes validation subsets with the appropriate structure: [FS LAF](https://drive.google.com/file/d/1fwl8jn4NLAp0LShOEZHYNS4CKdyEAt4L/view?usp=sharing), [FS Static](https://drive.google.com/file/d/1iWuoA218HweS9uuaPZvD5SJ-R93cTBHo/view?usp=sharing).
 
+ADE20k dataset (used as the negative content) can be downloaded by running `wget http://data.csail.mit.edu/places/ADEchallenge/ADEChallengeData2016.zip`.
+
 
 ## Evaluation
 
