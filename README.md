@@ -1,6 +1,12 @@
 # DenseHybrid: Hybrid Anomaly Detection for Dense Open-set Recognition
 Official implementation of ECCV2022 paper **DenseHybrid: Hybrid Anomaly Detection for Dense Open-set Recognition** [[arXiv]](https://arxiv.org/pdf/2207.02606.pdf)
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/densehybrid-hybrid-anomaly-detection-for/scene-segmentation-on-streethazards)](https://paperswithcode.com/sota/scene-segmentation-on-streethazards?p=densehybrid-hybrid-anomaly-detection-for)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/densehybrid-hybrid-anomaly-detection-for/anomaly-detection-on-fishyscapes-l-f)](https://paperswithcode.com/sota/anomaly-detection-on-fishyscapes-l-f?p=densehybrid-hybrid-anomaly-detection-for)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/densehybrid-hybrid-anomaly-detection-for/anomaly-detection-on-fishyscapes-1)](https://paperswithcode.com/sota/anomaly-detection-on-fishyscapes-1?p=densehybrid-hybrid-anomaly-detection-for)
+
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=matejgrcic.DenseHybrid)
 
 ### Abstract
