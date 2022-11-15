@@ -78,11 +78,18 @@ python ldn_streethazards.py --dataroot SH_DATAROOT --neg_dataroot ADE_DATAROOT -
 ### Cite
 ```
 @inproceedings{grcic22eccv,
-  author    = {Matej Grci\'c and
-               Petra Bevandi\'c and
-               Sini\v{s}a \v{S}egvi\'c},
-  title     = {DenseHybrid: Hybrid Anomaly Detection for Dense Open-set Recognition},
-  booktitle = {Computer Vision - {ECCV} 2022 - 17th European Conference},
-  year      = {2022}
+  author    = {Matej Grcic and
+               Petra Bevandic and
+               Sinisa Segvic},
+  title     = {DenseHybrid: Hybrid Anomaly Detection for Dense Open-Set Recognition},
+  booktitle = {Computer Vision - {ECCV} 2022 - 17th European Conference, Tel Aviv,
+               Israel, October 23-27, 2022, Proceedings, Part {XXV}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {13685},
+  pages     = {500--517},
+  publisher = {Springer},
+  year      = {2022},
+  url       = {https://doi.org/10.1007/978-3-031-19806-9\_29},
+  doi       = {10.1007/978-3-031-19806-9\_29}
 }
 ```
