@@ -34,6 +34,8 @@ Trained LDN-121 semseg model on StreetHazards: [weights](https://drive.google.co
 
 Fine-tuned LDN-121 semseg model on StreetHazards: [weights](https://drive.google.com/file/d/1vDXp-rySo-ASRh71O4h_MNiv_f-gFDm1/view?usp=sharing) 
 
+Fine-tuned LDN-121 semseg model (SMIYC submission): [weights](https://drive.google.com/file/d/1bXzZ5B6YGqVKEKcFgcDbMHj5sHYSsjss/view?usp=sharing)
+
 ### Dense anomaly detection
 
 Fishyscapes LostAndFound val results:
